@@ -1,0 +1,26 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "DAYJOB COFFEE"
+theme = "Hallo" 
+
+[Author]
+	name = "coffee"
+
+[params]
+	greeting = "Hi"
+
+    [[params.links]]
+        icon = "instagram"
+        title = "Instagram"
+        url = "https://www.instagram.com/dayjob_coffee/"
+    
+    [[params.links]]
+        icon = "facebook"
+        title = "Facebook"
+        url = "https://www.facebook.com/dayjobcoffee/"
+
+    [[params.links]]
+        iconset = "fas"
+        icon = "envelope"
+        title = "E-mail"
+        url = "mailto:hello@dayjobcoffee.com.au"
